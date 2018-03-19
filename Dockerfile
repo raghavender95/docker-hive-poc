@@ -1,5 +1,5 @@
-M ubuntu:latest
-MAINTAINER Raghav
+FROM ubuntu:latest
+MAINTAINER raghavender95
 
 # update and install basic tools
 RUN apt-get update && apt-get upgrade -y
